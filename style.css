@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 200px;
+}
+h1{
+    text-align:center;
+    color:rgba(50,150,200);
+}
+.keyboard{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 308px;
+    width: 665px;
+    display: flex;
+    flex-direction: column;
+    background-color:#e1a1cc76;
+}
+.key1{
+    border: 0px solid;
+    height: 50px;
+    width: 660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+
+}
+div ul{
+    border: 0px solid ;
+    height: 25px;
+    width: 85px;
+    box-shadow: 0px 0px 3px 1px rgb(160,160,300);
+    border-radius: 8px;
+    flex-wrap: nowrap;
+    white-space: 0;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+.key2{
+    border: 0px solid;
+    height: 50px;
+    width: 660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+}
+.key3{
+    border: 0px solid;
+    height: 50px;
+    width: 660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+
+}
+.key4{
+    border: 0px solid;
+    height: 50px;
+    width: 660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+
+}
+.key5{
+    border: 0px solid;
+    height: 50px;
+    width: 660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+
+}
+.key6{
+    border: 0px solid;
+    height: 50px;
+    width:660px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    padding: 2px ;
+
+}
+.key7{
+    border: 1px solid;
+    width: auto;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+
+}
+div div{
+    border: 2px solid;
+    border-radius: 4px;
+    height: 100px;
+    width: 150px;
+}
